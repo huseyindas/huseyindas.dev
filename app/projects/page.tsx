@@ -10,12 +10,7 @@ export default function Projects() {
   // Common styles for all sections
   const sectionClasses = "mb-8"
   const sectionHeaderClasses = "mb-5 text-[18px] font-medium text-[#E4E4E7]"
-  const itemsContainerClasses = "space-y-7"
-  const itemClasses = "flex gap-5"
-  const dateColumnClasses = "w-[85px] shrink-0 text-[14px] text-[#A1A1AA]"
-  const contentClasses = "flex-1"
   const titleClasses = "text-[16px] font-medium text-[#E4E4E7]"
-  const subtitleClasses = "text-[14px] text-[#A1A1AA]"
 
   return (
     <div className={`flex min-h-screen bg-[#18181B] ${dmSans.className}`}>

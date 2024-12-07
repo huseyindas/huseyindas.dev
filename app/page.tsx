@@ -98,11 +98,11 @@ export default function Home() {
                     <p className={subtitleClasses}>Istanbul, Turkey</p>
                   </div>
                   <ul className="list-inside list-disc space-y-1.5 text-[14px] leading-relaxed text-[#A1A1AA] text-justify hyphens-auto w-full">
-                    <li>Developed the backend for the company's B2B platform using Django Rest Framework, integrated with Canias ERP.</li>
+                    <li>Developed the backend for the company&apos;s B2B platform using Django Rest Framework, integrated with Canias ERP.</li>
                     <li>Managed ERP interactions to provide real-time information on dealer statuses, product stocks, and technical services to end users.</li>
                     <li>Utilized PostgreSQL for database management, Celery for task queuing, Redis for caching, and Elasticsearch for search indexing.</li>
                     <li>Employed S3 and GCP for storage, and Docker for containerization.</li>
-                    <li>Ensured the platform's active usage by over 3000 dealers, introducing an advanced, user-friendly B2B system in the sector.</li>
+                    <li>Ensured the platform&apos;s active usage by over 3000 dealers, introducing an advanced, user-friendly B2B system in the sector.</li>
                   </ul>
                 </div>
               </div>
