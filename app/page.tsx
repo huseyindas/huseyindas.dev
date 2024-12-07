@@ -2,6 +2,7 @@
 
 import { DM_Sans } from 'next/font/google'
 import Navbar from './components/Navbar'
+import Image from 'next/image'
 
 const dmSans = DM_Sans({ subsets: ['latin'] })
 
@@ -27,10 +28,13 @@ export default function Home() {
         <div className="mx-auto max-w-xl">
           {/* Profile Section */}
           <div className="mb-8 flex items-center space-x-5">
-            <img
+            <Image
               src="/profile-image.png"
-              alt="Profile foto"
-              className="h-[68px] w-[68px] rounded-full object-cover"
+              alt="Profile photo"
+              width={68}
+              height={68}
+              className="rounded-full object-cover"
+              priority
             />
             <div>
               <h1 className="text-[23px] font-medium text-[#E4E4E7]">Hüseyin Daş</h1>
