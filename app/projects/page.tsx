@@ -2,6 +2,7 @@
 
 import { DM_Sans } from 'next/font/google'
 import Navbar from '../components/Navbar'
+import Image from 'next/image'
 
 const dmSans = DM_Sans({ subsets: ['latin'] })
 
@@ -25,9 +26,18 @@ export default function Projects() {
             <div className="grid grid-cols-1 gap-6">
               {/* Project Card */}
               <div className="rounded-lg bg-[#27272A] p-5">
+                <div className="mb-4 overflow-hidden rounded-lg">
+                  <Image
+                    src="/fraud.webp"
+                    alt="Fraud Detection System"
+                    width={800}
+                    height={400}
+                    className="w-full object-cover transition-transform hover:scale-105"
+                  />
+                </div>
                 <h3 className={titleClasses}>AI-Powered Fraud Detection System</h3>
                 <p className="mb-3 text-[14px] text-[#A1A1AA]">
-                  Real-time fraud detection system using computer vision and deep learning
+                  Real-time fraud detection system using computer vision and deep learning.
                 </p>
                 <div className="mb-4 flex flex-wrap gap-2">
                   <span className="rounded-full bg-[#18181B] px-2.5 py-0.5 text-[12px] text-[#A1A1AA]">Python</span>
@@ -37,9 +47,18 @@ export default function Projects() {
               </div>
 
               <div className="rounded-lg bg-[#27272A] p-5">
+                <div className="mb-4 overflow-hidden rounded-lg">
+                  <Image
+                    src="/vllm.webp"
+                    alt="Motion Verification System"
+                    width={800}
+                    height={400}
+                    className="w-full object-cover transition-transform hover:scale-105"
+                  />
+                </div>
                 <h3 className={titleClasses}>Motion Verification with vLLM</h3>
                 <p className="mb-3 text-[14px] text-[#A1A1AA]">
-                  Real-time motion detection and verificationsystem using vLLM models.
+                  Real-time motion detection and verification system using vLLM models.
                 </p>
                 <div className="mb-4 flex flex-wrap gap-2">
                   <span className="rounded-full bg-[#18181B] px-2.5 py-0.5 text-[12px] text-[#A1A1AA]">Python</span>
