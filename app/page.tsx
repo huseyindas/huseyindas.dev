@@ -65,7 +65,7 @@ export default function Home() {
             <h2 className={sectionHeaderClasses}>Work Experience</h2>
             <div className={itemsContainerClasses}>
               <div className={itemClasses}>
-                <div className={dateColumnClasses}>2021 — Now</div>
+                <div className={dateColumnClasses}>2025 — Now</div>
                 <div className={contentClasses}>
                   <div className="mb-1.5">
                     <a href="https://counterfake.ai" className="text-[14px] text-[#A1A1AA] hover:text-[#E4E4E7]">
