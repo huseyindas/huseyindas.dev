@@ -38,7 +38,7 @@ export default function Home() {
             />
             <div>
               <h1 className="text-[23px] font-medium text-[#E4E4E7]">Hüseyin Daş</h1>
-              <p className="text-[16px] text-[#A1A1AA]">Software Engineer in Istanbul, Turkey</p>
+              <p className="text-[16px] text-[#A1A1AA]">AI Platform Engineer in Istanbul, Turkey</p>
               <a 
                 href="https://huseyindas.dev" 
                 className="mt-1.5 inline-block rounded-md bg-[#27272A] px-2.5 py-0.5 text-[14px] text-[#A1A1AA] transition-colors hover:text-[#E4E4E7]"
@@ -52,17 +52,11 @@ export default function Home() {
           <div className="mb-8">
             <h2 className="mb-2.5 text-[18px] font-medium text-[#E4E4E7]">About</h2>
             <p className="text-pretty text-[14px] leading-relaxed text-[#A1A1AA] text-justify hyphens-auto w-full">
-              As an experienced software engineer, I have designed and implemented scalable solutions 
-              for large-scale applications. Currently, I work on AI-focused projects that provide 
-              innovative solutions in the field of data science, and also manage complex deployments 
-              in DevOps, focusing on optimizing CI/CD pipelines and cloud-based infrastructures. 
-              Leveraging my expertise in technologies such as Django, FastAPI, Flask, PostgreSQL, 
-              Docker, Kubernetes, AWS, and Redis, I continue to collaborate with agile teams to 
-              produce high-quality software. I am also actively developing projects with LLM models, 
-              LangChain, and RAG. Recently, I worked on vLLM models to process real-time camera 
-              footage and developed an alerting mechanism based on it. Looking ahead, I aim to 
-              expand my work in both AI and DevOps, focusing on providing cutting-edge solutions 
-              in these different areas.
+              Experienced AI Platform Engineer with a strong background in building end‑to‑end machine learning systems, scalable backend infrastructures,
+              and hybrid cloud deployments. Proven track record in deploying LLM and VLM models in production environments, designing real‑time data
+              pipelines, and implementing CI/CD workflows. Adept at developing AI‑powered solutions for counterfeit detection, surveillance, and recom‑
+              mendation systems. Skilled in Kubernetes, Kafka, LangChain, and vector databases (Qdrant); hands‑on experience with AWS, GCP, and Azure.
+              Combines deep AI knowledge with DevOps expertise to deliver robust, scalable, and observable AI platforms.
             </p>
           </div>
 
@@ -70,6 +64,29 @@ export default function Home() {
           <div className={sectionClasses}>
             <h2 className={sectionHeaderClasses}>Work Experience</h2>
             <div className={itemsContainerClasses}>
+              <div className={itemClasses}>
+                <div className={dateColumnClasses}>2021 — Now</div>
+                <div className={contentClasses}>
+                  <div className="mb-1.5">
+                    <a href="https://counterfake.ai" className="text-[14px] text-[#A1A1AA] hover:text-[#E4E4E7]">
+                      <h3 className={titleClasses}>AI Platform Engineer at Counterfake AI ↗</h3>
+                    </a>
+                    <p className={subtitleClasses}>Istanbul, Turkey</p>
+                  </div>
+                  <ul className="list-inside list-disc space-y-1.5 text-[13px] leading-relaxed text-[#A1A1AA] text-justify hyphens-auto w-full">
+                    <li>Designed and developed AI systems for counterfeit detection on major e‑commerce platforms.</li>
+                    <li>Delivered protection solutions for both marketplaces (e.g., Trendyol) and global brands (e.g., Galatasaray, Beşiktaş).</li>
+                    <li>Deployed scalable AI models in Kubernetes with KEDA autoscaling and NVIDIA Triton Inference Server.</li>
+                    <li>Built high‑throughput data pipelines with Kafka and RabbitMQ; integrated LLM/VLM models (Florence, Qwen2.5‑VL) after benchmarking.</li>
+                    <li>Applied LoRA and PEFT for fine‑tuning; implemented RAG systems and agents via LangChain.</li>
+                    <li>Used Qdrant for vector search with image/text embeddings</li>
+                    <li>Designed observability stack with Grafana, ELK, and alerting mechanisms</li>
+                    <li>Led CI/CD pipeline automation and hybrid cloud architecture across AWS, GCP, Azure (Site‑to‑Site & P2P VPNs).</li>
+                    <li>Processed large datasets in Databricks using Parquet; utilized Hugging Face, PyTorch, TensorFlow.</li>
+                  </ul>
+                </div>
+              </div>
+
               <div className={itemClasses}>
                 <div className={dateColumnClasses}>2021 — Now</div>
                 <div className={contentClasses}>
